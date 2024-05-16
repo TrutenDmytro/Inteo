@@ -1,0 +1,14 @@
+@import "../../styles/index.scss";
+
+.button {
+  background-color: $brown-600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 14px 20px;
+  max-width: 160px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@import "../../styles/index.scss";
+
+.section-title-wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.section-title {
+  color: $brown-600;
+}
+
+.section-title-divider {
+  background-color: $brown-600;
+  min-width: 64px;
+  height: 1px;
+}

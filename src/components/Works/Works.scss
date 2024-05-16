@@ -1,0 +1,38 @@
+.works-inner {
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 20px;
+}
+
+.works-left-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  // max-width: 50%;
+}
+
+.works-right-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.works-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.works-card {
+  gap: 16px;
+}
+
+@media (min-width: 992px) {
+  .works-inner {
+    flex-direction: row;
+  }
+  .works-right-section-wrapper {
+    max-width: 40%;
+  }
+}

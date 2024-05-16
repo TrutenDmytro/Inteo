@@ -1,0 +1,12 @@
+@import "../../styles/index.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-text {
+  color: $neutral-700;
+}
+

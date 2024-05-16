@@ -1,0 +1,36 @@
+@import "../../styles/index.scss";
+
+.services-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 20px;
+}
+
+.services-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 800px;
+}
+
+.service-card img {
+  max-width: 48px;
+}
+
+.services-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.service-card {
+  padding: 32px;
+  border: 1px solid $brown-100;
+}
+
+@media (min-width: 992px) {
+  .services-cards-wrapper {
+    flex-direction: row;
+  }
+}

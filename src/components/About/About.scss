@@ -1,0 +1,74 @@
+@import "../../styles/index.scss";
+
+.about-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 48px 20px;
+  align-items: center;
+}
+
+.about-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.about-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-text {
+  color: $neutral-700;
+}
+
+.about-img-block {
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+}
+
+.about-img {
+  width: calc(50% - 5px);
+}
+
+.about-img:nth-child(1) {
+  margin-bottom: 45px;
+}
+
+.about-img:nth-child(2) {
+  margin-top: 45px;
+}
+
+.about-stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-stat {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+
+  .about-text-block {
+    max-width: 50%;
+  }
+  .about-inner {
+    gap: 32px;
+  }
+  .about-img-block {
+    gap: 16px;
+  }
+  .about-top-wrapper {
+    flex-direction: row;
+  }
+}

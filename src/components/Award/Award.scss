@@ -1,0 +1,79 @@
+@import "../../styles/index.scss";
+
+.awards-block-inner {
+  gap: 20px;
+  justify-content: center;
+  padding: 24px;
+}
+
+.awards-block {
+  background-color: $neutral-900;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.awards-title-wrapper {
+  display: flex;
+  gap: 8px;
+  z-index: 5;
+  position: relative;
+  height: fit-content;
+  min-height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.awards-title {
+  transform: rotate(-90deg);
+  color: #ffffff50;
+  height: fit-content;
+  font-style: italic;
+  width: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.awards-divider {
+  background-color: #ffffff50;
+  width: 100%;
+  min-width: 24px;
+  height: 1px;
+}
+
+.awards {
+  display: grid;
+  grid-template: repeat(4, 1fr) / 1fr;
+  gap: 24px;
+}
+
+.award {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.award-text {
+  color: $neutral-300;
+}
+
+@media (min-width: 576px) {
+  .awards-block-inner {
+    gap: 20px;
+    align-items: center;
+  }
+  .awards {
+    grid-template: 1fr 1fr / 1fr 1fr;
+  }
+
+  .awards-divider {
+    min-width: 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  .awards {
+    grid-template: 1fr / repeat(4, 1fr);
+    gap: 32px;
+  }
+}

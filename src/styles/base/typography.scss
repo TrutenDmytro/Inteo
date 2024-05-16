@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic");
+@import url("https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900");
+
+
+.display {
+  &-2xl {
+    font-size: 72px;
+    line-height: 96px;
+    letter-spacing: -0.025em;
+    font-family: "Playfair Display";
+  }
+
+  &-xl {
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    font-family: "Playfair Display";
+  }
+  &-lg {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0;
+    font-family: "Playfair Display";
+  }
+  &-md {
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0;
+    font-family: "Playfair Display";
+  }
+  &-sm {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0;
+    font-family: "Playfair Display";
+  }
+  &-xs {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-family: "Playfair Display";
+  }
+}
+
+.body {
+  &-xl {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.025em;
+    font-family: "Outfit";
+  }
+  &-lg {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-family: "Outfit";
+  }
+  &-md {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-family: "Outfit";
+  }
+  &-sm {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-family: "Outfit";
+  }
+  &-xs {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-family: "Outfit";
+  }
+}
+
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}

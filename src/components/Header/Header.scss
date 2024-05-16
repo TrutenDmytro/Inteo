@@ -1,0 +1,29 @@
+@import "../../styles/index.scss";
+
+.header-inner {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 88px;
+  height: 32px;
+}
+
+.header-nav-link {
+  color: $neutral-900;
+  display: none;
+  cursor: pointer;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (min-width: 576px) {
+  .header-nav-link {
+    display: block;
+  }
+}
